@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.header-section {
+  background-image: url(images/mobile/image-hero.jpg);
+  background-size: 100% 100%;
+  width: 100%;
+  padding-bottom: 20%;
+}
+
+.header-flex {
+  display: flex;
+  width: 100%;
+  padding-bottom: 20%;
+}
+
+.logo-img {
+  width: 40%;
+  display: block;
+  padding-top: 8%;
+  margin-left: 4%;
+}
+
+.buttons-container {
+  text-align: right;
+  padding-top: 5%;
+  margin-left: 30%;
+  text-decoration: none;
+  background: transparent;
+}
+
+.close-icon {
+  cursor: pointer;
+  background: transparent;
+  border-width: 0;
+}
+
+.toggle-on {
+  cursor: pointer;
+  background: transparent;
+  border-width: 0;
+  position: relative;
+  right: 0;
+  left: 54%;
+}
+
+.toggle-off {
+  cursor: pointer;
+  background: transparent;
+  border-width: 0;
+  visibility: hidden;
+}
+
+.hamburger-icon {
+  
+}
+
+.menu-container {
+  width: 100%;
+  visibility: hidden;
+  background: hsl(0, 0%, 0%);
+  position: absolute;
+  top: 0;
+  padding: 33.5% 0;
+}
+
+.menu-container ul li {
+  list-style: none;
+  padding-left: 5%;
+}
+
+.menu-container ul li a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+h1 {
+  width: 90%;
+  color: hsl(0, 0%, 100%);
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 0.1rem;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  border-style: solid;
+  border-color: hsl(0, 0%, 100%);
+  padding: 5%;
+  margin: 0 auto;
+}
+
+.attribution {
+  font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
