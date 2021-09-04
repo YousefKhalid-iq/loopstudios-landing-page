@@ -25,16 +25,20 @@ main {
 .logo-img {
   width: 40%;
   display: block;
-  padding-top: 8%;
+  padding-top: 6%;
   margin-left: 4%;
 }
 
-.buttons-container {
+.toggle-on-cont {
   text-align: right;
-  padding-top: 5%;
-  margin-left: 30%;
-  text-decoration: none;
-  background: transparent;
+  padding-top: 6%;
+  margin-left: 40%;
+}
+
+.toggle-off-cont {
+  text-align: right;
+  padding-top: 6%;
+  visibility: hidden;
 }
 
 .close-icon {
@@ -46,21 +50,14 @@ main {
 .toggle-on {
   cursor: pointer;
   background: transparent;
-  border-width: 0;
-  position: relative;
-  right: 0;
-  left: 54%;
+  border-width: 0; 
 }
 
 .toggle-off {
   cursor: pointer;
   background: transparent;
   border-width: 0;
-  visibility: hidden;
-}
-
-.hamburger-icon {
-  
+  position: relative;
 }
 
 .menu-container {
@@ -69,12 +66,13 @@ main {
   background: hsl(0, 0%, 0%);
   position: absolute;
   top: 0;
-  padding: 33.5% 0;
+  padding: 33.5% 0 54% 0;
 }
 
 .menu-container ul li {
   list-style: none;
-  padding-left: 5%;
+  
+  padding: 5% 0% 0% 5%;
 }
 
 .menu-container ul li a {
@@ -87,6 +85,27 @@ main {
   text-align: left;
 }
 
+.press {
+  visibility: visible;
+  transition: 0.5s easy-in-out;
+  
+}
+
+.press2 {
+  visibility: visible;
+  position: absolute;
+  z-index: 100;
+  right: 10%;
+}
+
+.press3 {
+  visibility: hidden;
+}
+
+.press4 {
+  z-index: 101;
+}
+
 h1 {
   width: 90%;
   color: hsl(0, 0%, 100%);
@@ -97,7 +116,7 @@ h1 {
   border-style: solid;
   border-color: hsl(0, 0%, 100%);
   padding: 5%;
-  margin: 0 auto;
+  margin: 10% auto 40% auto;
 }
 
 .attribution {
