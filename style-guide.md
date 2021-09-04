@@ -29,8 +29,18 @@ The designs were created to the following widths:
 - Family: [Alata](https://fonts.google.com/specimen/Alata)
 - Weight: 400
 
+- what to type: 
+
+font-family: 'Alata', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+
 - Family: [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans)
 - Weight: 300
+
+- what to type:
+
+font-family: 'Alata', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
 
 ## Icons
 
