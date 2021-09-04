@@ -13,7 +13,7 @@ main {
   background-image: url(images/mobile/image-hero.jpg);
   background-size: 100% 100%;
   width: 100%;
-  padding-bottom: 20%;
+  padding-bottom: 18%;
 }
 
 .header-flex {
@@ -88,7 +88,6 @@ main {
 .press {
   visibility: visible;
   transition: 0.5s easy-in-out;
-  
 }
 
 .press2 {
@@ -119,10 +118,275 @@ h1 {
   margin: 10% auto 40% auto;
 }
 
+.vr-leader-section {
+  padding-top: 30%;
+  padding-bottom: 20%;
+}
+
+.vr-img {
+  width: 85%;
+  display: block;
+  margin: 0 auto;
+}
+
+.vr-h2 {
+  width: 85%;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding-top: 10%;
+  line-height: 2rem;
+  padding-bottom: 5%;
+  font-size: 2rem;
+}
+
+.vr-para {
+  width: 85%;
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Alata', sans-serif;
+  color: hsl(0, 0%, 55%);
+}
+
+.our-creations-section {
+  width: 100%;
+  padding-bottom: 20%;
+}
+
+.images.container {
+  width: 100%;
+}
+
+.deep-earth-mobile {
+  width: 90%;
+  display: block;
+  margin: 3% auto;
+  position: relative;
+}
+
+.creations-h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  width: 90%;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2rem;
+  margin: 0 auto;
+  padding-bottom: 8%;
+}
+
+.card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7, .card-8 {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+.card-1 {
+  background-image: url(images/mobile/image-deep-earth.jpg);
+  color: hsl(0, 0%, 100%);
+  font-size: 2rem;
+  width: 90%;
+  margin: 6% auto;
+  padding: 10% 0;
+  background-size: 100% 100%;
+}
+
+.card-1 p {
+  width: 50%;
+  padding: 10% 0% 0 5%;
+  margin-bottom: -5%;
+}
+
+.card-2 {
+  background-image: url(images/mobile/image-night-arcade.jpg);
+  color: hsl(0, 0%, 100%);
+  font-size: 2rem;
+  width: 90%;
+  padding: 10% 0;
+  background-size: 100% 100%;
+  margin: 6% auto;
+}
+
+.card-2 p {
+  width: 50%;
+  padding: 10% 0% 0 5%;
+  margin-bottom: -5%;
+}
+
+.card-3 {
+  background-image: url(images/mobile/image-soccer-team.jpg);
+  color: hsl(0, 0%, 100%);
+  font-size: 2rem;
+  width: 90%;
+  margin: 6% auto;
+  padding: 10% 0;
+  background-size: 100% 100%;
+}
+
+.card-3 p {
+  width: 50%;
+  padding: 10% 0% 0 5%;
+  margin-bottom: -5%;
+}
+
+.card-4 {
+  background-image: url(images/mobile/image-grid.jpg);
+  color: hsl(0, 0%, 100%);
+  font-size: 2rem;
+  width: 90%;
+  margin: 6% auto;
+  padding: 10% 0;
+  background-size: 100% 100%;
+}
+
+.card-4 p {
+  width: 40%;
+  padding: 10% 0% 0 5%;
+  margin-bottom: -5%;
+}
+
+.card-5 {
+  background-image: url(images/mobile/image-from-above.jpg);
+  color: hsl(0, 0%, 100%);
+  font-size: 2rem;
+  width: 90%;
+  margin: 6% auto;
+  padding: 10% 0;
+  background-size: 100% 100%;
+}
+
+.card-5 p {
+  width: 60%;
+  padding: 10% 0% 0 5%;
+  margin-bottom: -5%;
+}
+
+.card-6 {
+  background-image: url(images/mobile/image-pocket-borealis.jpg);
+  color: hsl(0, 0%, 100%);
+  font-size: 2rem;
+  width: 90%;
+  margin: 6% auto;
+  padding: 10% 0;
+  background-size: 100% 100%;
+}
+
+.card-6 p {
+  width: 50%;
+  padding: 10% 0% 0 5%;
+  margin-bottom: -5%;
+}
+
+.card-7 {
+  background-image: url(images/mobile/image-curiosity.jpg);
+  color: hsl(0, 0%, 100%);
+  font-size: 2rem;
+  width: 90%;
+  margin: 6% auto;
+  padding: 10% 0;
+  background-size: 100% 100%;
+}
+
+.card-7 p {
+  width: 50%;
+  padding: 10% 0% 0 5%;
+  margin-bottom: -5%;
+}
+
+.card-8 {
+  background-image: url(images/mobile/image-fisheye.jpg);
+  color: hsl(0, 0%, 100%);
+  font-size: 2rem;
+  width: 90%;
+  margin: 6% auto;
+  padding: 10% 0;
+  background-size: 100% 100%;
+}
+
+.card-8 p {
+  width: 50%;
+  padding: 10% 0% 0 5%;
+  margin-bottom: -5%;
+}
+
+.button-cont {
+  text-align: center;
+}
+
+.see-all-btn {
+  background-color: hsl(0, 0%, 100%);
+  border-width: 2px;
+  color: hsl(0, 0%, 0%);
+  font-family: 'Alata', sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border-color: hsl(0, 0%, 0%);
+  font-weight: 600;
+  padding: 3% 10%;
+  cursor: pointer;
+  letter-spacing: 0.2rem;
+  margin-top: 5%;
+}
+
+.footer-section {
+  width: 100%;
+  background-color: hsl(0, 0%, 0%);
+}
+
+.logo-footer {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 12%;
+  padding-bottom: 5%;
+}
+
+.footer-links ul {
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+.footer-links ul li {
+  list-style: none;
+  padding: 2% 0;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  font-family: 'Alata', sans-serif;
+}
+
+.footer-socials ul {
+  text-align: center;
+}
+
+.footer-socials ul li {
+  display: inline;
+  list-style: none;
+}
+
+.footer-socials ul li a {
+  text-decoration: none;
+  padding: 0 1%;
+}
+
+.footer-para {
+  color: hsl(0, 0%, 41%);
+  font-family: 'Alata', sans-serif;
+  font-weight: 600;
+
+  text-align: center;
+  padding: 5% 0;
+}
+
 .attribution {
   font-size: 11px; text-align: center; 
+  padding-bottom: 5%;
+  color: hsl(0, 0%, 100%);
+  font-family: 'Alata', sans-serif;
 }
 
 .attribution a { 
-  color: hsl(228, 45%, 44%); 
+  text-decoration: none;
+  color: hsl(0, 0%, 55%);
 }
