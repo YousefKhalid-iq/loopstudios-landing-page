@@ -53,11 +53,19 @@ main {
   border-width: 0; 
 }
 
+.toggle-on:hover {
+  opacity: 0.5;
+}
+
 .toggle-off {
   cursor: pointer;
   background: transparent;
   border-width: 0;
   position: relative;
+}
+
+.toggle-off:hover {
+  opacity: 0.5;
 }
 
 .menu-container {
@@ -82,12 +90,19 @@ main {
   font-size: 1.3rem;
   line-height: 2rem;
   text-transform: uppercase;
-  text-align: left;
+  text-align: left; 
+}
+
+.menu-container ul li a:hover {
+  border-width: 0 0 3px 0;
+  border-color: hsl(0, 0%, 100%);
+  border-style: solid;
+  
 }
 
 .press {
   visibility: visible;
-  transition: 0.5s easy-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 .press2 {
@@ -308,8 +323,12 @@ h1 {
   margin-bottom: -5%;
 }
 
-.button-cont {
+.button-cont-mobile {
   text-align: center;
+}
+
+.button-cont-desktop {
+  display: none;
 }
 
 .see-all-btn {
@@ -325,6 +344,12 @@ h1 {
   cursor: pointer;
   letter-spacing: 0.2rem;
   margin-top: 5%;
+  transition: 0.3s ease-in-out;
+}
+
+.see-all-btn:hover {
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
 }
 
 .footer-section {
@@ -354,6 +379,17 @@ h1 {
   text-decoration: none;
   color: hsl(0, 0%, 100%);
   font-family: 'Alata', sans-serif;
+  position: relative;
+}
+
+.footer-links ul li a:hover:after {
+  content: '';
+  height: 2px;
+  width: 50%;
+  background: hsl(0, 0%, 100%);
+  position: absolute;
+  left: calc(25%);
+  bottom: -20%;
 }
 
 .footer-socials ul {
@@ -368,6 +404,17 @@ h1 {
 .footer-socials ul li a {
   text-decoration: none;
   padding: 0 1%;
+  position: relative;
+}
+
+.footer-socials ul li a:hover:after {
+  content: '';
+  height: 2px;
+  width: 55%;
+  background: hsl(0, 0%, 100%);
+  position: absolute;
+  left: 21%;
+  bottom: -20%;
 }
 
 .footer-para {
@@ -377,6 +424,86 @@ h1 {
 
   text-align: center;
   padding: 5% 0;
+}
+
+@media only screen and (min-width: 425px) {
+  .toggle-on-cont {
+    margin-left: 41%;
+  }
+}
+
+@media only screen and (min-width: 475px) {
+  .toggle-on-cont {
+    margin-left: 41.5%;
+  }
+
+  .header-section {
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 550px) {
+  .toggle-on-cont {
+    margin-left: 42.2%;
+  }
+
+  .header-section {
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 550px) {
+  .toggle-on-cont {
+    margin-left: 42.2%;
+  }
+
+  .header-section {
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 620px) {
+  .toggle-on-cont {
+    margin-left: 42.8%;
+  }
+
+  .header-section {
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .toggle-on-cont {
+    margin-left: 43.2%;
+  }
+
+  .header-section {
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .toggle-on-cont {
+    margin-left: 43.5%;
+  }
+
+  .header-section {
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .toggle-on-cont {
+    margin-left: 44%;
+  }
+
+  .header-section {
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  
 }
 
 .attribution {
