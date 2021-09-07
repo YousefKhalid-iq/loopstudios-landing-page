@@ -31,7 +31,7 @@ main {
 
 .toggle-on-cont {
   text-align: right;
-  padding-top: 6%;
+  padding-top: 7%;
   margin-left: 40%;
 }
 
@@ -79,7 +79,6 @@ main {
 
 .menu-container ul li {
   list-style: none;
-  
   padding: 5% 0% 0% 5%;
 }
 
@@ -97,7 +96,6 @@ main {
   border-width: 0 0 3px 0;
   border-color: hsl(0, 0%, 100%);
   border-style: solid;
-  
 }
 
 .press {
@@ -131,6 +129,7 @@ h1 {
   border-color: hsl(0, 0%, 100%);
   padding: 5%;
   margin: 10% auto 40% auto;
+  font-weight: 300;
 }
 
 .vr-leader-section {
@@ -138,10 +137,14 @@ h1 {
   padding-bottom: 20%;
 }
 
-.vr-img {
+.vr-img-mobile {
   width: 85%;
   display: block;
   margin: 0 auto;
+}
+
+.vr-img-desktop {
+  display: none;
 }
 
 .vr-h2 {
@@ -169,7 +172,7 @@ h1 {
   padding-bottom: 20%;
 }
 
-.images.container {
+.images-container {
   width: 100%;
 }
 
@@ -503,7 +506,128 @@ h1 {
 }
 
 @media only screen and (min-width: 1024px) {
-  
+
+  .header-section {
+    background-image: url(images/desktop/image-hero.jpg);
+    background-size: 100% 100%;
+
+  }
+
+  .flex-desktop {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .logo-img {
+    width: 40%;
+    margin: 0;
+    padding-top: 10%;
+  }
+
+  .toggle-on-cont {
+    display: none;
+  }
+
+  .toggle-off-cont {
+    display: none;
+  }
+
+  .menu-container {
+    visibility: visible;
+    background: transparent;
+    position: relative;
+    padding: 4% 0 0 0;
+  }
+
+  .menu-container ul {
+    text-align: right;
+  }
+
+  .menu-container ul li {
+    display: inline;
+    text-align: right;
+  }
+
+  .menu-container ul li a {
+    font-size: 0.8rem;
+    text-transform: none;
+    color: hsl(0, 0%, 100%);
+    font-weight: 900;
+    text-align: right;
+    position: relative;
+  }
+
+  .menu-container ul li a:hover {
+    border-style: none;
+  }
+
+  .menu-container ul li a:hover:after {
+    content: '';
+    height: 2px;
+    width: 50%;
+    background: hsl(0, 0%, 100%);
+    position: absolute;
+    left: calc(23%);
+    bottom: -60%;
+  }
+
+  h1 {
+    width: 50%;
+    margin: 0 0 0 10%;
+    padding: 2%;
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: -6%;
+  }
+
+  .vr-leader-section {
+    padding-top: 15%;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .vr-img-mobile {
+    display: none;
+  }
+
+  .vr-img-desktop {
+    display: block;
+    width: 80%;
+    position: relative;
+    margin: 0;
+  }
+
+  .vr-bg-img {
+    background-image: url(images/desktop/image-interactive.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    margin: ;
+  }
+
+  .vr-text-cont {
+    background-color: hsl(0, 0%, 100%);
+    width: 50%;
+    margin: 0 0% 0 30%;
+  }
+
+  .vr-h2 {
+    width: 60%;
+    text-align: right;
+    margin: 0 auto;
+    font-size: 1.7rem;
+    
+
+  }
+
+  .vr-para {
+    width: 60%;
+    text-align: right;
+    margin: 0 auto;
+    font-size: 0.8rem;
+    
+  }
 }
 
 .attribution {
