@@ -468,11 +468,11 @@ h1 {
   bottom: -20%;
 }
 
-.footer-para {
+.footer-rights {
   color: hsl(0, 0%, 41%);
   font-family: 'Alata', sans-serif;
   font-weight: 600;
-
+  font-size: 1rem;
   text-align: center;
   padding: 5% 0;
 }
@@ -933,7 +933,7 @@ h1 {
     text-align: right;
   }
 
-  .footer-para {
+  .footer-rights {
     grid-area: para-footer;
     padding: 0 0 5% 0;
     text-align: right;
