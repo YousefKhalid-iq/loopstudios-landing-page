@@ -208,6 +208,12 @@ h1 {
   background-size: 100% 100%;
 }
 
+.card-1:hover {
+  color: hsl(0, 0%, 0%);
+  cursor: pointer;
+  background-image: url(images/mobile/image-deep-earth-opacity.jpg);
+}
+
 .card-1 p {
   width: 50%;
   padding: 10% 0% 0 5%;
@@ -222,6 +228,12 @@ h1 {
   padding: 10% 0;
   background-size: 100% 100%;
   margin: 6% auto;
+}
+
+.card-2:hover {
+  color: hsl(0, 0%, 0%);
+  cursor: pointer;
+  background-image: url(images/mobile/image-night-arcade-opacity.jpg);
 }
 
 .card-2 p {
@@ -240,6 +252,12 @@ h1 {
   background-size: 100% 100%;
 }
 
+.card-3:hover {
+  color: hsl(0, 0%, 0%);
+  cursor: pointer;
+  background-image: url(images/mobile/image-soccer-team-opacity.jpg);
+}
+
 .card-3 p {
   width: 50%;
   padding: 10% 0% 0 5%;
@@ -254,6 +272,12 @@ h1 {
   margin: 6% auto;
   padding: 10% 0;
   background-size: 100% 100%;
+}
+
+.card-4:hover {
+  color: hsl(0, 0%, 0%);
+  cursor: pointer;
+  background-image: url(images/mobile/image-grid-opacity.jpg);
 }
 
 .card-4 p {
@@ -272,6 +296,12 @@ h1 {
   background-size: 100% 100%;
 }
 
+.card-5:hover {
+  color: hsl(0, 0%, 0%);
+  cursor: pointer;
+  background-image: url(images/mobile/image-from-above-opacity.jpg);
+}
+
 .card-5 p {
   width: 60%;
   padding: 10% 0% 0 5%;
@@ -286,6 +316,12 @@ h1 {
   margin: 6% auto;
   padding: 10% 0;
   background-size: 100% 100%;
+}
+
+.card-6:hover {
+  color: hsl(0, 0%, 0%);
+  cursor: pointer;
+  background-image: url(images/mobile/image-pocket-borealis-opacity.jpg);
 }
 
 .card-6 p {
@@ -304,6 +340,12 @@ h1 {
   background-size: 100% 100%;
 }
 
+.card-7:hover {
+  color: hsl(0, 0%, 0%);
+  cursor: pointer;
+  background-image: url(images/mobile/image-curiosity-opacity.jpg);
+}
+
 .card-7 p {
   width: 50%;
   padding: 10% 0% 0 5%;
@@ -318,6 +360,12 @@ h1 {
   margin: 6% auto;
   padding: 10% 0;
   background-size: 100% 100%;
+}
+
+.card-8:hover {
+  color: hsl(0, 0%, 0%);
+  cursor: pointer;
+  background-image: url(images/mobile/image-fisheye-opacity.jpg);
 }
 
 .card-8 p {
@@ -627,22 +675,30 @@ h1 {
     margin-top: -20%;
   }
 
+  .flex-desktop-btn {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+  }
+
   .creations-h2 {
     text-align: left;
+    padding-top: 2%;
+    padding-bottom: 5%;
   }
 
   .button-cont-desktop {
     display: block;
-  }
-
-  .flex-desktop-btn {
-    display: flex;
+    width: 50%;
+    text-align: right;
   }
 
   .images-container {
     width: 100%;
     display: grid;
     margin: 0 auto;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-rows: repeat(2, minmax(0, 1fr));
     grid-template-areas: "card-1 card-2 card-3 card-4"
     "card-5 card-6 card-7 card-8";
     grid-gap: 7% 0;
@@ -654,7 +710,21 @@ h1 {
     width: 80%;
     background-size: 100% 100%;
     height: 100%;
-    
+    padding-top: 100%;
+  }
+
+  .card-1:hover {
+    color: hsl(0, 0%, 0%);
+    cursor: pointer;
+    background-image: url(images/desktop/image-deep-earth-opacity.jpg);
+  }
+
+  .card-1 p {
+    position: relative;
+    padding: 0 0% 0 5%;
+    text-align: left;
+    width: 80%;
+    font-size: 1.8rem;
   }
 
   .card-2 {
@@ -663,6 +733,21 @@ h1 {
     width: 80%;
     background-size: 100% 100%;
     height: 100%;
+    padding-top: 100%;
+  }
+
+  .card-2:hover {
+    color: hsl(0, 0%, 0%);
+    cursor: pointer;
+    background-image: url(images/desktop/image-night-arcade-opacity.jpg);
+  }
+
+  .card-2 p {
+    position: relative;
+    padding: 0 0% 0 5%;
+    text-align: left;
+    width: 100%;
+    font-size: 1.8rem;
   }
 
   .card-3 {
@@ -671,6 +756,21 @@ h1 {
     width: 80%;
     background-size: 100% 100%;
     height: 100%;
+    padding-top: 100%;
+  }
+
+  .card-3:hover {
+    color: hsl(0, 0%, 0%);
+    cursor: pointer;
+    background-image: url(images/desktop/image-soccer-team-opacity.jpg);
+  }
+
+  .card-3 p {
+    position: relative;
+    padding: 0 0% 0 5%;
+    text-align: left;
+    width: 100%;
+    font-size: 1.8rem;
   }
 
   .card-4 {
@@ -679,6 +779,21 @@ h1 {
     width: 80%;
     background-size: 100% 100%;
     height: 100%;
+    padding-top: 100%;
+  }
+
+  .card-4:hover {
+    color: hsl(0, 0%, 0%);
+    cursor: pointer;
+    background-image: url(images/desktop/image-grid-opacity.jpg);
+  }
+
+  .card-4 p {
+    position: relative;
+    padding: 0 0% 0 5%;
+    text-align: left;
+    width: 100%;
+    font-size: 1.8rem;
   }
 
   .card-5 {
@@ -687,6 +802,21 @@ h1 {
     width: 80%;
     background-size: 100% 100%;
     height: 100%;
+    padding-top: 100%;
+  }
+
+  .card-5:hover {
+    color: hsl(0, 0%, 0%);
+    cursor: pointer;
+    background-image: url(images/desktop/image-from-above-opacity.jpg);
+  }
+
+  .card-5 p {
+    position: relative;
+    padding: 0 0% 0 5%;
+    text-align: left;
+    width: 100%;
+    font-size: 1.8rem;
   }
 
   .card-6 {
@@ -695,6 +825,21 @@ h1 {
     width: 80%;
     background-size: 100% 100%;
     height: 100%;
+    padding-top: 100%;
+  }
+
+  .card-6:hover {
+    color: hsl(0, 0%, 0%);
+    cursor: pointer;
+    background-image: url(images/desktop/image-pocket-borealis-opacity.jpg);
+  }
+
+  .card-6 p {
+    position: relative;
+    padding: 0 0% 0 5%;
+    text-align: left;
+    width: 100%;
+    font-size: 1.8rem;
   }
 
   .card-7 {
@@ -703,6 +848,21 @@ h1 {
     width: 80%;
     background-size: 100% 100%;
     height: 100%;
+    padding-top: 100%;
+  }
+
+  .card-7:hover {
+    color: hsl(0, 0%, 0%);
+    cursor: pointer;
+    background-image: url(images/desktop/image-curiosity-opacity.jpg);
+  }
+
+  .card-7 p {
+    position: relative;
+    padding: 0 0% 0 5%;
+    text-align: left;
+    width: 90%;
+    font-size: 1.8rem;
   }
 
   .card-8 {
@@ -711,10 +871,66 @@ h1 {
     width: 80%;
     background-size: 100% 100%;
     height: 100%;
+    padding-top: 100%;
+  }
+
+  .card-8:hover {
+    color: hsl(0, 0%, 0%);
+    cursor: pointer;
+    background-image: url(images/desktop/image-fisheye-opacity.jpg);
+  }
+
+  .card-8 p {
+    position: relative;
+    padding: 0 0% 0 5%;
+    text-align: left;
+    width: 100%;
+    font-size: 1.8rem;
   }
 
   .button-cont-mobile {
     display: none;
+  }
+
+  .footer-section {
+    
+  }
+
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+    grid-template-areas: "logo-footer socials-footer"
+    "links-footer para-footer";
+  }
+
+  .logo-footer {
+    width: 20%;
+    grid-area: logo-footer;
+    margin: 0 0% 0 20%;
+
+  }
+
+  .footer-links {
+    grid-area: links-footer;
+  }
+
+  .footer-links li {
+    display: inline-block;
+    padding: 0 10%;
+  }
+
+  .footer-links li a {
+
+  }
+
+  .footer-socials {
+    grid-area: socials-footer;
+    padding-top: 10%;
+  }
+
+  .footer-para {
+    grid-area: para-footer;
   }
 }
 
