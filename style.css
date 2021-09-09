@@ -464,7 +464,7 @@ h1 {
   width: 55%;
   background: hsl(0, 0%, 100%);
   position: absolute;
-  left: 21%;
+  left: 19%;
   bottom: -20%;
 }
 
@@ -892,36 +892,36 @@ h1 {
     display: none;
   }
 
-  .footer-section {
-    
-  }
-
   .footer-grid {
     display: grid;
     grid-template-columns: 2;
     grid-template-rows: 2;
     grid-template-areas: "logo-footer socials-footer"
     "links-footer para-footer";
+    width: 85%;
+    margin: 0 auto;
   }
 
   .logo-footer {
     width: 20%;
     grid-area: logo-footer;
-    margin: 0 0% 0 20%;
+    margin: 0 0 0 2%; 
 
   }
 
   .footer-links {
     grid-area: links-footer;
+    padding-bottom: 5%;
   }
 
-  .footer-links li {
+  .footer-links ul {
+    padding: 0;
+    text-align: left;
+  }
+
+  .footer-links ul li {
     display: inline-block;
-    padding: 0 10%;
-  }
-
-  .footer-links li a {
-
+    padding: 0 2%;
   }
 
   .footer-socials {
@@ -929,14 +929,21 @@ h1 {
     padding-top: 10%;
   }
 
+  .footer-socials ul {
+    text-align: right;
+  }
+
   .footer-para {
     grid-area: para-footer;
+    padding: 0 0 5% 0;
+    text-align: right;
   }
 }
 
 .attribution {
   font-size: 11px; text-align: center; 
   padding-bottom: 5%;
+  padding-top: 5%;
   color: hsl(0, 0%, 100%);
   font-family: 'Alata', sans-serif;
 }
