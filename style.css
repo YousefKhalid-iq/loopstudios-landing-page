@@ -940,6 +940,44 @@ h1 {
   }
 }
 
+@media only screen and (min-width: 1440px) {
+  h1 {
+    font-size: 4.5rem;
+  }
+
+  .card-1 p {
+    font-size: 2rem;
+  }
+
+  .card-2 p {
+    font-size: 2rem;
+  }
+
+  .card-3 p {
+    font-size: 2rem;
+  }
+
+  .card-4 p {
+    font-size: 2rem;
+  }
+
+  .card-5 p {
+    font-size: 2rem;
+  }
+
+  .card-6 p {
+    font-size: 2rem;
+  }
+
+  .card-7 p {
+    font-size: 2rem;
+  }
+
+  .card-8 p {
+    font-size: 2rem;
+  }
+}
+
 .attribution {
   font-size: 11px; text-align: center; 
   padding-bottom: 5%;
